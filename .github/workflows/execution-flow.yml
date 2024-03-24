@@ -85,6 +85,6 @@ jobs:
     steps:
         - name: Output information
           run: | 
-            echo "Something went wrong"
+            echo "Something went wrong. Check output."
             echo "${{ github }}"
 
